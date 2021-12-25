@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTER</title>
+     <style>
+     body{
+         background-color: black;
+        background-image: url('https://images.unsplash.com/photo-1517938667734-c368e40c3784?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MzcwfHxmaXRuZXNzfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60');
+        background-repeat:no-repeat;
+            background-size: cover ;
+            background-position: center;
+            opacity: 0.75;
+            background-color: none;
+
+         
+     }
+     
+.t{
+/* font-size: 100%; */
+/* background-color: black; */
+
+color:rgb(234, 239, 243);
+/* padding:23px;
+margin: 33px; */
+border-radius:4px;
+/* width: 1000px; */
+/* border: 5px solid rgb(255, 157, 77); */
+height: 750px;
+width: 600px;
+justify-content: center;
+display:block;
+/* float: right 25%; */
+margin:40px 40px 0px 25%;
+
+
+
+}
+
+.v input{
+border-radius: 4px;
+background-color: orange;
+color: rgb(0, 0, 0);
+/* box-sizing: 100px; */
+/* font-size: 20px; */
+/* display: flex; */
+}
+.v input:hover{
+background-color:rgb(255, 212, 133);
+/* text-decoration: underline; */
+/* box-shadow: 10px 8px 22px rgb(253, 225, 131); */
+border: 2px solid white;
+}
+.tr input{
+height:2px;
+width:250px;
+padding: 12px;
+margin: 13px;
+border-radius:4px;
+
+
+}
+.tr input:hover{
+/* font-family: 'Baloo Bhai', cursive; */
+box-shadow: 10px 8px 22px rgb(252, 226, 177);
+}
+input[type=text], select, textarea {
+  /* width: 100%; */
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  .t div{
+     color: orange;
+  }
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+    </style>
+    <!-- <link rel="stylesheet" href="gym.css"> -->
+   </head> 
+  
+<body>
+    <form class="t">
+        <DIV class="tr">
+       <h1 style="color: orange;">REGISTER NOW FOR BEST DISCOUNT</h1>
+       <div class="row">
+        <div class="col-25">
+          <label for="lname"> Name</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="lname" name="lastname" placeholder="Your  name..">
+        </div>
+      </div>  
+      <div class="row">
+        <div class="col-25">
+          <label for="subject">Address</label>
+        </div>
+        <div class="col-75">
+          <textarea id="subject" name="subject" placeholder="Write Address.." style="height:150px"></textarea>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="fname">Contact No</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="fname" name="firstname" placeholder="Your contact..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="fname">Landmark</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="fname" name="firstname" placeholder="..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="country">Gender</label>
+        </div>
+        <div class="col-75">
+          <select id="country" name="country">
+            <option value="australia">Male</option>
+            <option value="canada">Female</option>
+            <option value="usa">Other</option>
+          </select>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-25">
+          <label for="lname">Age</label>
+        </div>
+        <div class="col-75">
+          <input type="number" id="lname" name="lastname" placeholder="Your age..">
+        </div>
+      </div>    
+      <div class="row">
+        <div class="col-25">
+          <label for="lname">DOB</label>
+        </div>
+        <div class="col-75">
+          <input type="date" id="lname" name="lastname" placeholder="D--O--B">
+        </div>
+      </div>   
+   <div class="v" style="display: flex;">    
+      <div><input type="submit" ></div>
+      <div> <input type="reset"></div>
+   </div>
+</DIV>
+       
+   </form>
+  
+</body>
+</html>
